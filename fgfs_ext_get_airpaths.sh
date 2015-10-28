@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# bash script to show external aircrafts (start-name and description)
+# bash script to get external airpaths by user-input
 #
 # fgfs_ext_get_airpaths.sh
 #  ver: 0003 gf
@@ -42,7 +42,7 @@ user_select_path() {
 #	else
 #		echo "## no airpath yet, first run"
 	fi
-	#echo "[$XT_LOC_DIR]"
+	#echo "[$XT_LOC_ARG]"
 
 	#if [ $(check_command_v "zenity") -eq 0 ]; then
 	if [ "$USER_IFACE" == "Zenity" ]; then
