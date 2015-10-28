@@ -698,8 +698,8 @@ FuMain() {
 
 ## Ini-Variablen (you may want to change configfile) ###################
 ## these files are needed to add external airpaths, but can be used to print-nice your external aircrafts as standalone...
-SCRIPT_EXT_AIR="fgfs_ext_print_air_0003ge.sh"
-SCRIPT_GET_INPUT="fgfs_ext_get_usr_in_0003gf.sh"
+SCRIPT_EXT_AIR="fgfs_ext_print_air.sh"
+SCRIPT_GET_INPUT="fgfs_ext_get_airpaths.sh"
 
 ##
 MY_FAV_TERM="lxterminal"												## nicht so schön, muss JEDER INDIVIDUELL anpassen... (!) ...war schon mal automatisiert, siehe alte version...
