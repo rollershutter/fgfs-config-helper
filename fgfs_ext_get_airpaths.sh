@@ -59,9 +59,10 @@ user_select_path() {
 }
 
 check_command_v() {
-	command -v "$1" >/dev/null 2>&1 \
-		&& printf 0 \
-		|| printf 1
+	command -v "$1" >/dev/null 2>&1 #\#
+		return $?
+#		&& return 0 \
+#		|| return 1
 }
 
 
@@ -77,7 +78,7 @@ else
 fi
 
 ## check if zenity is installed?
-if [ $(check_command_v "zenity") -eq 0 ]; then
+if check_command_v "zenity"; then
 	USER_IFACE="Zenity"
 	## due to gtk errors
 	export NO_AT_BRIDGE=1
