@@ -188,7 +188,7 @@ MenuChooseEnter(){
 		echo -ne "auswählen/abbrechen (1 - $numelements/0 to cancel) hit ENTER to confirm: "	## bug: falsche zeichen abfrage [-done]
 		read toggrp
 ## New
-		CheckNumber "$tog_menu_action" || continue
+		CheckNumber "$toggrp" || continue
 
 		if [[ $toggrp -le $numelements ]] && [[ $toggrp -ge 1 ]]; then	## number in expected range...
 			## this is right...
