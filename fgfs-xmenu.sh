@@ -136,6 +136,8 @@ MenuConstructSingle() {
 		hint_mess_strings[1]="($min_num - ${#menu_actions[@]}):"		## maybe chg that to global message string...
 	fi
 
+	[ "$NON_PROGRESSING" ] && tput rc && tput ed
+
 	MenuShow "menu_texts[@]" "${3-Hauptmenü}" "$4" $CNT_ROUND			## $cnt_round ## ACHTUNG! this is a global, set in Fu-Main
 
 	ACTION=""															## test: this is global, maybe use a global array (ass.) and only set the key 'action' here to make that clear
@@ -710,6 +712,8 @@ CheckCommandExists "$MY_FAV_TERM" \
 ##
 
 CONFIGFILE="fgfs-xmenu_conf.txt"
+
+NON_PROGRESSING=""
 
 TESTMODE="" ## (!) wird automatisch "y" wenn fgfs nicht gefunden wird
 			## (dann werden die folgenden Dateien benötigt)
