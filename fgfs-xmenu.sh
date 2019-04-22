@@ -9,7 +9,7 @@
 # -should be executed within a viewable shell to see what you do,
 #  but script will check that and restart if file is executed anyway...
 # 
-# author: rollershutter@github.com
+# author: sebastian github.com/rollershutter
 #		  ('rollershutter' at flightgear-forums
 #			forum.flightgear-de.net
 #			forum.flightgear.org)
