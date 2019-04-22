@@ -5,7 +5,7 @@
 # fgfs_ext_print_air.sh
 #  ver: 0003 ge
 #
-# author: rollershutter@github.com
+# author: sebastian github.com/rollershutter
 #		  ('rollershutter' at flightgear-forums
 #			forum.flightgear-de.net
 #			forum.flightgear.org)
