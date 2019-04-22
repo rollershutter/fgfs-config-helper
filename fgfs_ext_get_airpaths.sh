@@ -7,7 +7,7 @@
 #
 # idea is to source this and get the array "AIRPATHS" in the parent script
 #
-# author: rollershutter@github.com
+# author: sebastian github.com/rollershutter
 #		  ('rollershutter' at flightgear-forums
 #			forum.flightgear-de.net
 #			forum.flightgear.org)
